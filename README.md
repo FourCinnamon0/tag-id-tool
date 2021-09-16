@@ -1,7 +1,15 @@
 # tag-id-tool
 Tool for converting Brawl Stars tags into internal database IDs and into IDs used during networking
 # Usage
+## Command arguments
 `node tag_id_tool <type> <tag/id>`
+
+Valid input types: `hl`/`id`/`tag`
+
+## Stdin
+Use `node tag_id_tool`
+
+Then type the arguments (`<type> <input>`)
 
 Valid input types: `hl`/`id`/`tag`
 
