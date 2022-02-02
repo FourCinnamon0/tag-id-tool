@@ -66,14 +66,14 @@ function id2hl(hashtag) {
 
 console.log("")
 const readline = require('readline');
-const rl = readline.createInterface({
-	input: process.stdin,
-	output: process.stdout
-});
 var isInt = false; // `INT` stands for `INTeractive`, obviously
 if (process.argv[2]) {
 	doThings(process.argv[2], process.argv[3])
 } else {
+	const rl = readline.createInterface({
+		input: process.stdin,
+		output: process.stdout
+	});
 	process.stdout.write("Syntax: <type> <input>\n> ")
 	isInt = true
 	rl.on('line', (input) => {
