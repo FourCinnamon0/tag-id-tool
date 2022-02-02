@@ -6,9 +6,13 @@ Tool for converting Brawl Stars tags into internal database IDs, IDs used during
 
 Valid `<type>`s: `hl`/`id`/`tag`
 
+
 Example: `node tag_id_tool tag #2pp`
+
 Example: `node tag_id_tool tag 2pp`
+
 Example: `node tag_id_tool id 256`
+
 Example: `node tag_id_tool hl 0-1`
 
 ## Stdin
